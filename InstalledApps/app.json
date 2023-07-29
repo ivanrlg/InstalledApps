@@ -1,14 +1,14 @@
 {
-  "id": "309956f5-6c39-4568-b86f-071f0ae1c100",
+  "id": "1750d059-5d60-4c85-89a8-396b9db903f3",
   "name": "InstalledApps",
   "publisher": "IvanSingleton.dev",
-  "version": "1.0.0.0",
-  "brief": "",
+  "version": "1.0.0.2",
+  "brief": "This application allows you to obtain the list of apps installed in Business Central.",
   "description": "",
   "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
+  "EULA": "https://ivansingleton.dev/",
+  "help": "https://ivansingleton.dev/",
+  "url": "https://ivansingleton.dev/",
   "logo": "",
   "dependencies": [],
   "screenshots": [],
@@ -20,12 +20,13 @@
       "to": 50149
     }
   ],
-  "features": [
-    "NoImplicitWith"
-  ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "11.0",
+  "features": [
+    "NoImplicitWith"
+  ]
 }
